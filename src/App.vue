@@ -1,17 +1,22 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <nav>
+    <router-link to="/">Initial</router-link>
+    <router-link to="/main">Main</router-link>
+    <router-link to="/register">Register</router-link>
+    <router-link to="/join">Join</router-link>
+    <router-link to="/store">Store</router-link>
+    <router-link to="/games">Games</router-link>
+    <router-link to="/gameplay">Gameplay</router-link>
+    <router-link to="/gamehistory">GameHistory</router-link>
+    <router-link to="/changeattacks">ChangeAttacks</router-link>
+  </nav>
+
+  <router-view></router-view>
+
 </template>
 
 <style scoped>
