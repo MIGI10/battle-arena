@@ -1,5 +1,6 @@
 <template>
     <main>
+        <button id="back-btn" class="back-btn"><img class="back-img" src="./../assets/back.png"></button>
         <h1>Player Registration</h1>
         <form onsubmit="return validateForm()">
             <label for="user">Username</label><br>
@@ -10,7 +11,7 @@
             <input type="text" id="pwd" name="pwd"><br><br>
             <label for="pwd-confirm">Password Confirmation</label><br>
             <input type="text" id="pwd-confirm" name="pwd-confirm"><br><br>
-            <button type="submit">Register</button>
+            <button class="register" type="submit">Register</button>
         </form>
     </main>
 </template>
@@ -28,7 +29,19 @@ form {
     text-align: center;
 }
 
-button {
+.back-btn {
+    text-align: left;
+    cursor: pointer; 
+    border: 0px; 
+    background-color: transparent; 
+}
+
+.back-img {
+    height: 50px;
+    width: 50px;
+}
+
+.register {
     height:35px;
     width:150px;
     margin-top:15px;
@@ -47,18 +60,18 @@ button {
     font-size: 15px;
 }
 
-button:hover {
+.register:hover {
     background-color: rgb(82, 108, 255);
     transition-duration: 0.1s;
 }
 
-button:active {
+.register:active {
     background-color: rgb(22, 57, 255);
     box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
     transition: none 0s;
 }
 
-button:focus {
+.register:focus {
     outline: 1px transparent;
 }
 
