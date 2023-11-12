@@ -81,17 +81,19 @@ export default {
 }
 
 .leave-button {
-    font-size: 1.5rem;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #C24641;
     cursor: pointer;
 }
 
 .leave-button:hover {
-    background-color: rgb(82, 108, 255);
+    background-color: #F70D1A;
     transition-duration: 0.1s;
 }
 
 .leave-button:active {
-    background-color: rgb(22, 57, 255);
+    background-color: #990000;
     box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
     transition: none 0s;
 }
