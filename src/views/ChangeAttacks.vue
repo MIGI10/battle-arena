@@ -65,13 +65,15 @@
 
 .scroll-bars-container {
   display: flex;
-  margin: 0 auto;
+  margin: -2% auto;
 }
 
 .left-block {
     flex:1;
     margin: 0 10%;
     max-width: 35%;
+    margin-top: 50px;
+
 }
 
 .right-block {
@@ -88,7 +90,6 @@
     max-width: 100%;
     height: 300px;
     border: 5px solid #ccc;
-    margin-top: 70px;
 }
 
 .backpack-attacks-title{
