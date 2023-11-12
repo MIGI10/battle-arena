@@ -14,12 +14,6 @@
     text-align: center;
 }
 
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
 .leave-button {
     font-size: 1.5rem;
     cursor: pointer;

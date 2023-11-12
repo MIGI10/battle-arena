@@ -1,40 +1,31 @@
 <template>
     <main>
-        <button id="back-btn" class="back-btn"><img class="back-img" src="./../assets/back.png"></button>
-        <h1>Join Arena</h1>
-        <form onsubmit="return validateForm()">
-            <label for="user">Username</label><br>
-            <input type="text" id="user" name="user"><br><br>
-            <label for="pwd">Password</label><br>
-            <input type="password" id="pwd" name="pwd"><br><br>
-            <button class="login-btn" type="submit">Login</button>
-        </form>
+        <div>
+            <div class="top-bar">
+                <button class="back-btn"><img class="icon" src="./../assets/back.png"></button>
+            </div>
+            <h1>Join Arena</h1>
+            <form onsubmit="return validateForm()">
+                <label for="user">Username</label><br>
+                <input type="text" id="user" name="user"><br><br>
+                <label for="pwd">Password</label><br>
+                <input type="password" id="pwd" name="pwd"><br><br>
+                <button class="login-btn" type="submit">Login</button>
+            </form>
+        </div>
     </main>
 </template>
   
 <style scoped>
 
 h1 {
-    display: inline-block;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 70px;
 }
 
 form {
     text-align: center;
-}
-
-.back-btn {
-    text-align: left;
-    cursor: pointer; 
-    border: 0px; 
-    background-color: transparent; 
-}
-
-.back-img {
-    height: 50px;
-    width: 50px;
 }
 
 .login-btn {

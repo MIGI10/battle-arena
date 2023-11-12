@@ -2,8 +2,8 @@
     <main>
         <div class="game-finder">
         <div class="top-bar">      
-            <button class="arrow-button">←</button>
-            <button class="setting-button">⚙️</button>
+            <button class="back-btn"><img class="icon" src="./../assets/back.png"></button>
+            <button class="setting-button"><img class="icon" src="./../assets/settings.png"></button>
         </div>
         <h1 class="title">Game Finder</h1>
 
@@ -17,31 +17,6 @@
 <style scoped>
 .game-finder {
     text-align: center;
-}
-
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.arrow-button,
-.setting-button {
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-.arrow-button:hover,
-.setting-button:hover {
-    background-color: rgb(82, 108, 255);
-    transition-duration: 0.1s;
-}
-
-.arrow-button:active,
-.setting-button:active {
-    background-color: rgb(22, 57, 255);
-    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
-    transition: none 0s;
 }
 
 .title {

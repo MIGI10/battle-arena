@@ -1,44 +1,35 @@
 <template>
     <main>
-        <button id="back-btn" class="back-btn"><img class="back-img" src="./../assets/back.png"></button>
-        <h1>Player Registration</h1>
-        <form onsubmit="return validateForm()">
-            <label for="user">Username</label><br>
-            <input type="text" id="user" name="user"><br><br>
-            <label for="image">Image URL</label><br>
-            <input type="text" id="image" name="image"><br><br>
-            <label for="pwd">Password</label><br>
-            <input type="password" id="pwd" name="pwd"><br><br>
-            <label for="pwd-confirm">Password Confirmation</label><br>
-            <input type="password" id="pwd-confirm" name="pwd-confirm"><br><br>
-            <button class="register" type="submit">Register</button>
-        </form>
+        <div class="registration">
+            <div class="top-bar">
+                <button class="back-btn"><img class="icon" src="./../assets/back.png"></button>
+            </div>
+            <h1>Player Registration</h1>
+            <form onsubmit="return validateForm()">
+                <label for="user">Username</label><br>
+                <input type="text" id="user" name="user"><br><br>
+                <label for="image">Image URL</label><br>
+                <input type="text" id="image" name="image"><br><br>
+                <label for="pwd">Password</label><br>
+                <input type="password" id="pwd" name="pwd"><br><br>
+                <label for="pwd-confirm">Password Confirmation</label><br>
+                <input type="password" id="pwd-confirm" name="pwd-confirm"><br><br>
+                <button class="register" type="submit">Register</button>
+            </form>
+        </div>
     </main>
 </template>
   
 <style scoped>
 
 h1 {
-    display: inline-block;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 70px;
 }
 
 form {
     text-align: center;
-}
-
-.back-btn {
-    text-align: left;
-    cursor: pointer; 
-    border: 0px; 
-    background-color: transparent; 
-}
-
-.back-img {
-    height: 50px;
-    width: 50px;
 }
 
 .register {
