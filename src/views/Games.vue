@@ -135,9 +135,19 @@ export default {
     justify-content: space-between;
 }
 
-.left-block,
 .right-block,
 .middle-block {
+    flex-grow:1;
+    flex-shrink:1;
+    flex-basis:auto;
+    width:15%;
+    max-width: 17%;
+    text-align: center;
+}
+
+.left-block {
+    position: relative;
+    display: inline-block;
     flex-grow:1;
     flex-shrink:1;
     flex-basis:auto;
@@ -153,6 +163,7 @@ export default {
 }
 
 .dropdown-options {
+    position: absolute;
     border: 1px solid #ccc;
     padding: 5px;
     margin: 0 auto;
