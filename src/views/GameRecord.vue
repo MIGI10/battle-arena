@@ -6,8 +6,9 @@
         <button class="setting-button"><img class="icon" src="./../assets/settings.png"></button>
       </div>
       <h1 class="title">{{ gameName }}</h1>
-      <div class="info-container">
-        <p class="info-text">Size: {{ rows }}x{{ columns }}</p>
+      <p class="info-text"> Size: {{ rows }}x{{ columns }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ creationDate }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max HP: {{ hpMax }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Winner: {{ winner }}</p>
+      <div class="log-scroll-bar">
+        <!-- game log to be put with the API -->
       </div>
     </div>  
   </main>
@@ -20,6 +21,9 @@ export default {
             gameName: "The Great Game",
             rows: 6,
             columns: 8,
+            creationDate: "27/03/2023",
+            hpMax: 10,
+            winner: "theBigAl",
         };
     },
 };
@@ -40,9 +44,27 @@ export default {
     font-size: 50px;
 }
 
-.info-container {
-  display: flex;
-  margin: -2% auto;
+.info-text {
+    width: 60%;
+    margin: 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: rgb(117, 138, 255);
+    padding: 13px 13px;
+}
+
+.log-scroll-bar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 900px;
+    height: 300px;
+    border: 5px solid #ccc;
+    overflow-y: scroll;
+
 }
 
 </style>
