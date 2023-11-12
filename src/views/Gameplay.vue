@@ -51,7 +51,15 @@
                         </div>
                     </div>                
                 </div>
-                <div class="attack-set">
+                <div class="right-block">
+                    <div class="attack-set">
+                        <div class="label-attack">Attack Set</div>
+                        <div class="attack-buttons">
+                            <button class="attack-button">Attack 1</button>
+                            <button class="attack-button">Attack 2</button>
+                            <button class="attack-button">Attack 3</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,18 +134,18 @@ export default {
 }
 
 .controls {
-  flex: 0 0 27.5%;
-  /*background-color: lightblue;*/
+    flex: 0 0 27.5%;
+    /*background-color: lightblue;*/
 }
 
 .controller {
-  margin-bottom: 10%;
+    margin-bottom: 10%;
 }
 
 .label {
     margin-top: 16%;
-  font-weight: bold;
-  margin-bottom: 2%;
+    font-weight: bold;
+    margin-bottom: 2%;
 }
 
 .controller-button:hover {
@@ -156,35 +164,58 @@ export default {
 }
 
 .middle-block {
-  flex: 0 0 45%;
-  /*background-color: lightgreen;*/
+    flex: 0 0 45%;
+    /*background-color: lightgreen;*/
 }
 
 .board {
-  display: flex;
+    display: flex;
 }
 
 .board-column {
-  flex: 1;
-  display: flex;
-  flex-direction:column;
+    flex: 1;
+    display: flex;
+    flex-direction:column;
 }
 
 .board-cell {
-  border: 1px solid #000;
-  padding: 10px;
-  text-align: center;
-  height: 55px;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    height: 55px;
 }
 
 .board-cell img {
-  max-width: 100%;
-  max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.right-block {
+    flex: 0 0 27.5%;
+    /*background-color: lightcoral;*/
 }
 
 .attack-set {
-  flex: 0 0 27.5%;
-  /*background-color: lightcoral;*/
+    margin-top: 25%;
+}
+
+.label-attack {
+    position:relative;
+    margin-top: 16%;
+    font-weight: bold;
+    margin-bottom: 2%;
+    left: -20%;
+}
+
+.attack-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.attack-button {
+    cursor: pointer;
+    margin-bottom: 2%;
+    width: 60%;
 }
 
 </style>
