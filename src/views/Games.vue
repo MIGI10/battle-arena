@@ -5,7 +5,7 @@
             <button class="arrow-button">←</button>
             <button class="setting-button">⚙️</button>
         </div>
-        <h1 class="title">Player {{ playerName }}'s Game History</h1>
+        <h1 class="title">Game Finder</h1>
 
         <div class="game-data-scroll-bar">
             <!-- games of the player to put with the API -->
