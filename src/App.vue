@@ -4,7 +4,7 @@
 
 <template>
 
-  <!-- Navigation bar to ease development
+   Navigation bar to switch views(just for this milestone)
   <nav>
     <router-link to="/">Initial</router-link>
     <router-link to="/main">Main</router-link>
@@ -17,7 +17,7 @@
     <router-link to="/changeattacks">ChangeAttacks</router-link>
     <router-link to="/gamerecord">GameRecord</router-link>
   </nav>
-  -->
+  
 
   <router-view></router-view>
 

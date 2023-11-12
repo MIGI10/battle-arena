@@ -218,4 +218,14 @@ export default {
     width: 60%;
 }
 
+.attack-button:hover {
+    background-color: rgb(82, 108, 255);
+    transition-duration: 0.1s;
+}
+
+.attack-button:active {
+    background-color: rgb(22, 57, 255);
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
 </style>
