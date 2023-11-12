@@ -137,9 +137,6 @@ export default {
 
 .right-block,
 .middle-block {
-    flex-grow:1;
-    flex-shrink:1;
-    flex-basis:auto;
     width:15%;
     max-width: 17%;
     text-align: center;
