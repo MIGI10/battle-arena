@@ -60,8 +60,10 @@ export default {
 }
 
 .title {
-    font-size: 1.5rem;
-    margin: 20px 0;
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 50px;
 }
 
 .percentage-bar {
