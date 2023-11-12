@@ -5,8 +5,8 @@
         <form onsubmit="return validateForm()">
             <label for="user">Username</label><br>
             <input type="text" id="user" name="user"><br><br>
-            <label for="email">Email</label><br>
-            <input type="text" id="email" name="email"><br><br>
+            <label for="image">Image URL</label><br>
+            <input type="text" id="image" name="image"><br><br>
             <label for="pwd">Password</label><br>
             <input type="password" id="pwd" name="pwd"><br><br>
             <label for="pwd-confirm">Password Confirmation</label><br>
