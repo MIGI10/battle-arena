@@ -7,9 +7,9 @@
             <label for="email">Email</label><br>
             <input type="text" id="email" name="email"><br><br>
             <label for="pwd">Password</label><br>
-            <input type="text" id="pwd" name="pwd"><br><br>
+            <input type="password" id="pwd" name="pwd"><br><br>
             <label for="pwd-confirm">Password Confirmation</label><br>
-            <input type="text" id="pwd-confirm" name="pwd-confirm"><br><br>
+            <input type="password" id="pwd-confirm" name="pwd-confirm"><br><br>
             <button type="submit">Register</button>
         </form>
     </main>
