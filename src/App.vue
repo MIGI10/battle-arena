@@ -13,6 +13,7 @@
     <router-link to="/gameplay">Gameplay</router-link>
     <router-link to="/gamehistory">GameHistory</router-link>
     <router-link to="/changeattacks">ChangeAttacks</router-link>
+    <router-link to="/gamerecord">GameRecord</router-link>
   </nav>
 
   <router-view></router-view>

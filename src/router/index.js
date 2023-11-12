@@ -8,6 +8,7 @@ import Games from '../views/Games.vue'
 import Gameplay from '../views/Gameplay.vue'
 import GameHistory from '../views/GameHistory.vue'
 import ChangeAttacks from '../views/ChangeAttacks.vue'
+import GameRecord from '../views/GameRecord.vue'
 
 const routes = [
     {
@@ -54,6 +55,11 @@ const routes = [
         path: '/changeattacks',
         name: 'ChangeAttacks',
         component: ChangeAttacks,
+    },
+    {
+        path: '/gamerecord',
+        name: 'GameRecord',
+        component: GameRecord,
     }
 ]
 

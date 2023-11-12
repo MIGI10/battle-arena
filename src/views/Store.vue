@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="change-attacks">
+    <div class="store">
       <div class="top-bar">
         <button class="back-btn"><img class="icon" src="./../assets/back.png"></button>
             <button class="setting-button"><img class="icon" src="./../assets/settings.png"></button>
@@ -40,7 +40,7 @@
 
 <style scoped>
 
-.change-attacks {
+.store {
     text-align: center;
     margin: 0;
 }
