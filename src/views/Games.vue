@@ -88,27 +88,27 @@ export default {
 .left-block,
 .right-block,
 .middle-block {
-    flex:1;
+    flex-grow:1;
+    flex-shrink:1;
+    flex-basis:auto;
+    width:15%;
     max-width: 17%;
     text-align: center;
 }
 
 .state-dropdown {
     border: 1px solid #ccc;
-    max-width: 17%;
     cursor: pointer;
     margin: 0 auto;
 }
 
 .dropdown-options {
-    max-width: 17%;
     border: 1px solid #ccc;
     padding: 5px;
     margin: 0 auto;
 }
 
 .dropdown-options div {
-    max-width: 17%;
     cursor: pointer;
 }
 
@@ -124,11 +124,9 @@ export default {
 }
 
 .form-control {
-    width: 15%;
-    max-width: 17%;
     border: 1px solid #ccc;
     margin: 0 auto;
-}
+} 
 
 label {
     color: #555;
