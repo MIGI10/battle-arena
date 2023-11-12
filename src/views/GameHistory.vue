@@ -2,17 +2,15 @@
     <main>
     <div class="player-game-history">
         <div class="top-bar">      
-        <button class="arrow-button">←</button>
-        <button class="setting-button">⚙️</button>
+            <button class="arrow-button">←</button>
+            <button class="setting-button">⚙️</button>
         </div>
-
         <h1 class="title">Player {{ playerName }}'s Game History</h1>
         <div class="percentage-bar">
-        <div class="percentage" :style="{ width: `${percentage}%` }">{{ percentage }}%</div>
+            <div class="percentage" :style="{ width: `${percentage}%` }">{{ percentage }}%</div>
         </div>
-
         <div class="game-data-scroll-bar">
-        <!-- games of the player to put with the API -->
+            <!-- games of the player to put with the API -->
         </div>
     </div>
   </main>
